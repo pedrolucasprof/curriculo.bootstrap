@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("usePolarisNextGenVideoExperimentCheck",["NavHooks","PolarisUA","qex"],(function(a,b,c,d,e,f,g){"use strict";function a(){var a=d("NavHooks").useIsOnFeedPage(),b=d("NavHooks").useIsOnPostPage(),e=d("NavHooks").useIsOnStoriesPage(),f=d("PolarisUA").isMobile()&&c("qex")._("1213")===!0||d("PolarisUA").isDesktop()&&c("qex")._("1214")===!0;a=a&&c("qex")._("1215")===!0||b&&c("qex")._("1216")===!0||e&&c("qex")._("1624")===!0;return f&&a}g["default"]=a}),98);
